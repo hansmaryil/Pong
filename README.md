@@ -6,11 +6,14 @@ This is a game built using CodeSkulptor.org a development environment built by S
 
 Instructions to run the code and play the game:
 
-1. Open Google Chrome (this is the preferred browser) and navigate to codeskulptor.org 
+Simply click on the following link: http://www.codeskulptor.org/#user28_35If09xsXLpts5b.py
 
-2. Copy the code from the pong file in this repo
+Should the link not work for some reason, please follow these instructions: 
+1. Open Google Chrome (this is the preferred browser) and navigate to codeskulptor.org
 
-3. Highlight all the existing code in codeskulptor.org and replace it with my pong code by pasting the code from the         pong_game.py file.
+2. Copy the code from the pong_game.py file in this repo
+
+3. Highlight all the existing code in codeskulptor.org and replace it with my game code by pasting the code from the         pong_game.py file.
 
 4. Hit the play button (left most button, just above the code space)
 
