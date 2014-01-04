@@ -10,7 +10,7 @@ Instructions to run the code and play the game:
 
 2. Copy the code from the pong file in this repo
 
-3. Highlight all the existing code in codeskulptor.org and replace it with my pong code by pasting the code from the         pong_game file.
+3. Highlight all the existing code in codeskulptor.org and replace it with my pong code by pasting the code from the         pong_game.py file.
 
 4. Hit the play button (left most button, just above the code space)
 
