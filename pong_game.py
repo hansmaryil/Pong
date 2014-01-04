@@ -4,7 +4,7 @@ import simplegui
 import random
 
 # initialize globals - pos and vel encode vertical info for paddles
-WIDTH = 600
+WIDTH = 700
 HEIGHT = 400       
 BALL_RADIUS = 20
 PAD_WIDTH = 8
@@ -119,6 +119,20 @@ frame = simplegui.create_frame("Pong", WIDTH, HEIGHT)
 frame.set_draw_handler(draw)
 frame.set_keydown_handler(keydown)
 frame.set_keyup_handler(keyup)
+
+#instructions to play
+blank_line = " "
+instruction_title = "HOW TO PLAY"
+player_1 = "To control the paddle on the left of your screen: use the 'w' and 's' keyboard keys to move your paddle up/down, respectively."
+player_2 = "To control the paddle on the right of your screen: use the up/down arrow keys to move your paddle up/down, respectively."
+restart = "If you would like to reset the game, simply click the Restart Game button below. This will reset the score"
+
+label = frame.add_label(instruction_title)
+label = frame.add_label(player_1)
+label = frame.add_label(blank_line)
+label = frame.add_label(player_2)
+label = frame.add_label(blank_line)
+label = frame.add_label(restart)
 
 #restart button to start new game
 restart = frame.add_button("Restart Game", restart_game)
